@@ -86,15 +86,54 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html{
+  font-size: 1rem;
+}
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  /*font-weight: 500;*/
+}
+
+h3,
+h4 {
+  font-size: 1.125em;
+  /*font-weight: 500;*/
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.125;
+}
+
+address {
+  font-size: normal;
+}
 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
   outline: 3px dotted red;
 }
-
 
 
 
@@ -171,7 +210,8 @@ footer .copyright {
 
 
 /*******MOBILE****/
-/***HOME pagr***/
+/***HOME page***/
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -181,6 +221,11 @@ aside {
   display: flex;
   justify-content: center;
 }
+
+/*input {
+  font-size: 1.125rem;
+  font-weight: 500;
+}*/
 
 .features {
   display: flex;
@@ -214,14 +259,17 @@ aside {
 
 .reviews h2 {
   padding-bottom: 40px;
-  ;
+  /*line-height: 1.875rem;*/
 }
 
 .reviews h3 {
   width: 55%;
   padding: 20px 0;
-  ;
 }
+
+/*.features .fontawesome-icon {
+  font-size: 3.75rem;
+}*/
 
 
 
@@ -260,11 +308,16 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  /*line-height: 1.875rem;*/
 }
 
 .faq-content {
   margin-bottom: 50px;
 }
+
+/*.faq-content h4 {
+  line-height: 24px;
+}*/
 
 
 
@@ -413,7 +466,7 @@ aside {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   .reviews article {
@@ -509,25 +562,25 @@ aside {
   }*/
 
   aside .content-wrapper {
-    justify-content:space-around;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width:30%;
+    width: 30%;
   }
 
   .features h2 {
     width: 90%;
-}
+  }
 
-.features article {
+  .features article {
     flex-basis: 33%;
-}
+  }
 
 
-  .reviews article div{
-    width:42%;
+  .reviews article div {
+    width: 42%;
   }
 
   /*
@@ -558,14 +611,15 @@ aside {
   /***ABOUTpage**/
 
   .mission h2,
-    .contact-section .content-wrapper h2 {
-        width: 95%;
-    }
-/***FAQ page***/
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
 
-.faq h2{
-  width:100%;
-}
+  /***FAQ page***/
+
+  .faq h2 {
+    width: 100%;
+  }
 
 
 }
