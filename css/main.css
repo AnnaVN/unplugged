@@ -247,6 +247,11 @@ footer .social-icons p {
   /*font-size: 1.313em;*/
 }
 
+footer .social-icons p i{
+  font-size: 1.3125em;
+  margin:10px;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
