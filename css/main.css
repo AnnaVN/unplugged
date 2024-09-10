@@ -255,17 +255,9 @@ footer .copyright {
 /*******MOBILE****/
 /***HOME page***/
 
-
-
-/*h2 {
-  font-size: 1.875em;
-  font-weight: 500;
-}
-
-h3,
-h4 {
-  font-size: 1.125em;
-  font-weight: 500;
+/*.hero-area .content-wrapper{
+  background-color: url('../img/unpluggedlogo.png') center no-repeat #333;
+  background-size: cover;
 }*/
 
 .hero-area {
@@ -273,7 +265,7 @@ h4 {
   justify-content: center;
 }
 
-hero-area h1 {
+.hero-area h1 {
   font-size: 2.25em;
   line-height: 1.2;
   font-weight: 500;
@@ -332,6 +324,11 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+}
+
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
 }
 
 /*.features p {
