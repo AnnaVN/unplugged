@@ -146,6 +146,14 @@ address {
   outline: 3px dotted red;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 /*h1{
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }*/
@@ -166,6 +174,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header fugure {
+  width: 60%;
 }
 
 header nav {
@@ -357,6 +369,10 @@ input[type=button] {
   width: 55%;
   padding: 20px 0;
 }
+
+/*.reviews fugure{
+  width:100%;
+}*/
 
 /*.features .fontawesome-icon {
   font-size: 3.75rem;
@@ -567,6 +583,12 @@ input[type=button] {
 
   /*****HOME page*****/
 
+  .hero-area {
+    min-height: 600px;
+    /*background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+    background-size: cover;*/
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -610,6 +632,8 @@ input[type=button] {
     width: 85%;
   }
 
+
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
